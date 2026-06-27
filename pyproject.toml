@@ -1,0 +1,18 @@
+[project]
+name = "open-ended-causal-poet"
+version = "0.1.0"
+description = "A research-oriented implementation of POET-style open-ended causal task generation with novelty, solvability, genealogy, and transfer analysis."
+requires-python = ">=3.10"
+authors = [
+  { name = "Hasegawa Ichiro" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
