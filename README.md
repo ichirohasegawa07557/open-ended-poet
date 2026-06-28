@@ -73,9 +73,3 @@ results/learnability_vs_novelty.png
 results/archive_transfer_matrix.png
 results/task_graph_evolution.gif
 ```
-
-## Suggested GitHub description
-
-```text
-Research implementation of POET-style open-ended causal task generation with novelty, solvability, genealogy, and transfer analysis.
-```
